@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div form{
+    background-color: black;
+    border-radius: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    justify-content: flex-end;
+}
+form h3{
+    text-align: center;
+    color: white
+}
+form input{
+    background-color:white;
+    margin: 5px;
+    border-width: 1px;
+    border-color: white
+}
+form label{
+    color: white;
+}
+#btn{
+    padding: 5px;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white
+}
+#btn:hover{
+    padding: 5px;
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white
+}
+span{
+    color: red;
+}
+input:disabled{
+    background-color: gray;
+    border-color: gray;
+}
+form div{
+    display: flow-root
+}
+
+thead{
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+}
+table thead tr th{
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    text-align:center;
+    text-justify: auto;
+}
+#table h3{
+    margin-top: 10px;
+    text-align: center;
+    color:white;
+}
+
+#table{
+    border-top-left-radius:  15px;
+    border-top-right-radius:  15px;
+    width: fit-content;
+    margin-top: 20px;
+    background-color:black;
+    margin-left: auto;
+    margin-right: auto;
+}
+tbody{
+    margin: 7px;
+    text-align: center;
+    color: white;
+    background: gray;
+}
+tbody tr td{
+    padding: 5px;
+}
+.delete_b{
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    border-width: 0;
+}
+.delete_b:hover{
+    color: red;
+
+}
